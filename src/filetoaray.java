@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class filetoaray {
     public static void main(String[] args) throws IOException {
 
-        // Create a file
-        // Write on it
-        //  Read from it
+        
         PrintWriter pw = new PrintWriter("number1.txt");
         for (int i = 1; i <= 10; i++) {
             pw.println(i);
